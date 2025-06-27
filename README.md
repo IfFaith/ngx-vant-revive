@@ -16,7 +16,7 @@
 </p> -->
 
 <p align="center">
-  🔥 <a href="https://ngx-vant-revive.github.io/ngx-vant-revive">文档网站</a>
+  🔥 <a href="https://iffaith.github.io/ngx-vant-revive">文档网站</a>
   &nbsp;
   &nbsp;
   
@@ -60,11 +60,11 @@ import { Vant18nModule, VANT_I18N } from "ngx-vant-revive/i18n";
 export class AppModule {}
 ```
 
-See more in [Quickstart](https://ngx-vant-revive.github.io/ngx-vant-revive/#/basic/quickstart).
+See more in [Quickstart](https://iffaith.github.io/ngx-vant-revive/#/basic/quickstart).
 
 ## Contribution
 
-Please make sure to read the [Contributing Guide](https://ngx-vant-revive.github.io/ngx-vant-revive/#/basic/contribution) before making a pull request.
+Please make sure to read the [Contributing Guide](https://iffaith.github.io/ngx-vant-revive/#/basic/contribution) before making a pull request.
 
 ## Browser Support
 
@@ -72,7 +72,7 @@ Modern browsers and Android 4.0+, iOS 8.0+.
 
 ## Links
 
-- [Documentation](https://ngx-vant-revive.github.io/ngx-vant-revive)
+- [Documentation](https://iffaith.github.io/ngx-vant-revive)
 
 ## LICENSE
 
