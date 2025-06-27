@@ -1,7 +1,7 @@
 {
   "name": "ngx-vant-revive",
   "version": "1.0.0",
-  "author": "IfFaith",
+  "author": "lixp",
   "license": "MIT",
   "description": "An enterprise-class UI components based on Vant and Angular",
   "peerDependencies": {
