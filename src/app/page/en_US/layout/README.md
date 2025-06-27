@@ -7,8 +7,8 @@ Quickly and easily create layouts with `van-row` and `van-col`.
 ### Install
 
 ```js
-import RowModule from 'ngx-vant/row'; 
-import ColModule from 'ngx-vant/col';
+import RowModule from 'ngx-vant-revive/row'; 
+import ColModule from 'ngx-vant-revive/col';
 ```
 
 ## Usage

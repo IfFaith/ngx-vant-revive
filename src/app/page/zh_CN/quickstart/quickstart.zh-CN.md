@@ -11,7 +11,7 @@
 在现有项目中使用 Vant 时，可以通过 `npm` 或 `yarn` 进行安装：
 
 ```js
-npm i ngx-vant -S
+npm i ngx-vant-revive -S
 ```
 
 ### 按需引入组件
@@ -20,8 +20,8 @@ npm i ngx-vant -S
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
-import { ButtonModule } from "ngx-vant/button";
-import { Vant18nModule, VANT_I18N, zh_CN } from "ngx-vant/i18n";
+import { ButtonModule } from "ngx-vant-revive/button";
+import { Vant18nModule, VANT_I18N, zh_CN } from "ngx-vant-revive/i18n";
 
 @NgModule({
   declarations: [AppComponent],
@@ -38,5 +38,5 @@ export class AppModule {}
 
 ```js
 /* You can add global styles to this file, and also import other style files */
-@import "../node_modules/ngx-vant/ngx-vant.less";
+@import "../node_modules/ngx-vant-revive/ngx-vant-revive.less";
 ```

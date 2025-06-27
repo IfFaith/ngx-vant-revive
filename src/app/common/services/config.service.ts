@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { VantI18nProperty, VantI18nService } from 'ngx-vant/i18n';
+import { VantI18nProperty, VantI18nService } from 'ngx-vant-revive/i18n';
 
 @Injectable({
     providedIn: 'root'

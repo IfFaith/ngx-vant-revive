@@ -1,4 +1,4 @@
-import { zh_CN } from "ngx-vant/i18n";
+import { zh_CN } from "ngx-vant-revive/i18n";
 
 export default {
     // locale: 'zh_CN',

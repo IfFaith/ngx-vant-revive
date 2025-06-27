@@ -1,4 +1,4 @@
-import { en_US } from "ngx-vant/i18n";
+import { en_US } from "ngx-vant-revive/i18n";
 
 export default {
     ...en_US,

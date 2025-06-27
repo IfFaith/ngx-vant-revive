@@ -8,7 +8,7 @@ import { NavigationEnd, Router } from '@angular/router';
     styleUrls: ['./simulator.component.less']
 })
 export class SimulatorComponent implements OnInit {
-    src: SafeHtml = 'https://ngx-vant.github.io/ngx-vant/#/mobile/button'
+    src: SafeHtml = 'https://ngx-vant.github.io/ngx-vant-revive/#/mobile/button'
     constructor(
         private router: Router,
          private sanitizer: DomSanitizer,

@@ -87,7 +87,7 @@ First you should import the less source file to your project.
 
 ```less
 /* You can add global styles to this file, and also import other style files */
-@import  '../node_modules/ngx-vant/ngx-vant.less';
+@import  '../node_modules/ngx-vant-revive/ngx-vant.less';
 ```
 
 
@@ -97,7 +97,7 @@ First you should import the less source file to your project.
 Use [modifyVars](http://lesscss.org/usage/#using-less-in-the-browser-modify-variables) provided by less.js to modify less variables:
 ```less
 /* You can add global styles to this file, and also import other style files */
-@import  '../node_modules/ngx-vant/ngx-vant.less';
+@import  '../node_modules/ngx-vant-revive/ngx-vant.less';
 
 @button-primary-background-color: red;
 @button-primary-border-color: red;

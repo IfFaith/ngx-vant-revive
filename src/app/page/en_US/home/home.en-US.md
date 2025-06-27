@@ -41,7 +41,7 @@ Modern browsers and Android 4.0+, iOS 8.0+.
 
 ### Links
 
-- [Feedback](https://github.com/yutao331763646/ngx-vant/issues)
+- [Feedback](https://github.com/yutao331763646/ngx-vant-revive/issues)
 
 ### LICENSE
 

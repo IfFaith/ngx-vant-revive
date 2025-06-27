@@ -3,7 +3,7 @@
 ### Install
 
 ```js
-import FieldModule from 'ngx-vant/field';
+import FieldModule from 'ngx-vant-revive/field';
 ```
 
 ## Usage

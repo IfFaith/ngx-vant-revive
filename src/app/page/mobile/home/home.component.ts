@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
-import {  VantI18nService } from 'ngx-vant/i18n';
+import {  VantI18nService } from 'ngx-vant-revive/i18n';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import en_US from 'src/app/common/i18n/languages/en_US';

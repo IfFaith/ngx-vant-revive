@@ -1,6 +1,6 @@
 {
-  "name": "ngx-vant",
-  "version": "0.1.1",
+  "name": "ngx-vant-revive",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "bootstrap": "yarn || npm i",
@@ -12,8 +12,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
-    "build_lib": "ng build  ngx-vant",
-    "npm_pack": "cd ./dist/ngx-vant && npm pack",
+    "build_lib": "ng build  ngx-vant-revive",
+    "npm_pack": "cd ./dist/ngx-vant-revive && npm pack",
     "copy_style": "node ./scripts/copyStyle.js",
     "package": "npm run build_lib && npm run npm_pack && npm run copy_style"
   },
@@ -43,6 +43,8 @@
     "@angular-devkit/build-angular": "^14.2.3",
     "@angular/cli": "^14.2.3",
     "@angular/compiler-cli": "^14.2.2",
+    "@types/eslint": "^8.4.10",
+    "@types/estree": "^1.0.5",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.20.16",
     "codelyzer": "^6.0.0",

@@ -16,8 +16,8 @@ npm i ngx-vant -S
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
-import { ButtonModule } from "ngx-vant/button";
-import { Vant18nModule, VANT_I18N, zh_CN } from "ngx-vant/i18n";
+import { ButtonModule } from "ngx-vant-revive/button";
+import { Vant18nModule, VANT_I18N, zh_CN } from "ngx-vant-revive/i18n";
 
 @NgModule({
   declarations: [AppComponent],
@@ -34,5 +34,5 @@ Import the less stylesheet in style.less
 
 ```js
 /* You can add global styles to this file, and also import other style files */
-@import "../node_modules/ngx-vant/ngx-vant.less";
+@import "../node_modules/ngx-vant-revive/ngx-vant.less";
 ```

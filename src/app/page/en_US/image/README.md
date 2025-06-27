@@ -3,7 +3,7 @@
 ### Install
 
 ```js
-import ImageModule from 'ngx-vant/image';
+import ImageModule from 'ngx-vant-revive/image';
 ```
 
 ## Usage

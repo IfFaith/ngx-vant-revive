@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs-extra');
 
-const sourcePath = path.resolve(__dirname, '../library/ngx-vant/');
+const sourcePath = path.resolve(__dirname, '../library/ngx-vant-revive/');
 const targetPath = path.resolve(__dirname, '../dist/ngx-vant');
 
 

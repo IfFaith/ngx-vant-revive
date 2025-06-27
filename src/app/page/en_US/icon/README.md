@@ -3,7 +3,7 @@
 ### Install
 
 ```js
-import IconModule from 'ngx-vant/icon';
+import IconModule from 'ngx-vant-revive/icon';
 ```
 
 ## Usage

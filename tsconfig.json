@@ -21,8 +21,8 @@
             "dom"
         ],
         "paths": {
-            "ngx-vant/*": [
-                "library/ngx-vant/*"
+            "ngx-vant-revive/*": [
+                "library/ngx-vant-revive/*"
             ]
         },
     },

@@ -11,12 +11,12 @@ describe('workspace-project App', () => {
     it('去github仓库', async () => {
         await page.navigateTo();
         page.getTitleText()
-        // expect(await page.getTitleText()).toEqual('ngx-vant app is running!');
+        // expect(await page.getTitleText()).toEqual('ngx-vant-revive app is running!');
     });
     it('修改标题', async () => {
         expect(await page.getTittt()).toEqual('dddddd')
         expect(await page.getTittt()).toBe('dddddd')
-        // expect(await page.getTitleText()).toEqual('ngx-vant app is running!');
+        // expect(await page.getTitleText()).toEqual('ngx-vant-revive app is running!');
     });
 
     afterEach(async () => {

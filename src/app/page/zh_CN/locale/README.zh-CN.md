@@ -15,7 +15,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Vant18nModule, VANT_I18N, zh_CN } from 'ngx-vant/i18n';
+import { Vant18nModule, VANT_I18N, zh_CN } from 'ngx-vant-revive/i18n';
 
 
 @NgModule({
@@ -33,8 +33,8 @@ export class AppModule {}
 
 ```js
 import { Component } from '@angular/core';
-import { en_US, zh_CN } from 'ngx-vant/i18n';
-import { VantI18nService } from 'ngx-vant/i18n';
+import { en_US, zh_CN } from 'ngx-vant-revive/i18n';
+import { VantI18nService } from 'ngx-vant-revive/i18n';
 
 @Component({
     selector: 'app',

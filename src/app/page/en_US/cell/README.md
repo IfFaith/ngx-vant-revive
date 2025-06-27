@@ -3,7 +3,7 @@
 ### Install
 
 ```js
-import CellModule from 'ngx-vant/cell';
+import CellModule from 'ngx-vant-revive/cell';
 ```
 
 ## Usage

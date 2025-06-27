@@ -7,7 +7,7 @@
 ### 引入
 
 ```js
-import FieldModule from 'ngx-vant/field';
+import FieldModule from 'ngx-vant-revive/field';
 ```
 
 ## 代码演示

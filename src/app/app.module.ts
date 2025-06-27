@@ -5,29 +5,29 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MobileModule } from './page/mobile/mobile.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
-import { Vant18nModule, VANT_I18N } from 'ngx-vant/i18n';
+import { Vant18nModule, VANT_I18N } from 'ngx-vant-revive/i18n';
 
 
-import { CellModule } from 'ngx-vant/cell';
-import { TabsModule } from 'ngx-vant/tabs';
-import { IconModule } from "ngx-vant/icon";
-import { ButtonModule } from "ngx-vant/button";
-import { RowModule } from "ngx-vant/row";
-import { LoadingModule } from "ngx-vant/loading";
-import { ToastModule } from "ngx-vant/toast";
-import { NavBarModule } from "ngx-vant/nav-bar";
-import { ColModule } from "ngx-vant/col";
-import { ProgressModule } from "ngx-vant/progress";
-import { ImageModule } from "ngx-vant/image";
-import { OverlayModule } from "ngx-vant/overlay";
-import { FieldModule } from "ngx-vant/field";
-import { PopupModule } from "ngx-vant/popup";
-import { NotifyModule } from "ngx-vant/notify";
-import { TagModule } from "ngx-vant/tag";
-import { StickyModule } from "ngx-vant/sticky";
-import { PickerModule } from "ngx-vant/picker";
-import { TabModule } from "ngx-vant/tab";
-import { CellGroupModule } from "ngx-vant/cell-group";
+import { CellModule } from 'ngx-vant-revive/cell';
+import { TabsModule } from 'ngx-vant-revive/tabs';
+import { IconModule } from "ngx-vant-revive/icon";
+import { ButtonModule } from "ngx-vant-revive/button";
+import { RowModule } from "ngx-vant-revive/row";
+import { LoadingModule } from "ngx-vant-revive/loading";
+import { ToastModule } from "ngx-vant-revive/toast";
+import { NavBarModule } from "ngx-vant-revive/nav-bar";
+import { ColModule } from "ngx-vant-revive/col";
+import { ProgressModule } from "ngx-vant-revive/progress";
+import { ImageModule } from "ngx-vant-revive/image";
+import { OverlayModule } from "ngx-vant-revive/overlay";
+import { FieldModule } from "ngx-vant-revive/field";
+import { PopupModule } from "ngx-vant-revive/popup";
+import { NotifyModule } from "ngx-vant-revive/notify";
+import { TagModule } from "ngx-vant-revive/tag";
+import { StickyModule } from "ngx-vant-revive/sticky";
+import { PickerModule } from "ngx-vant-revive/picker";
+import { TabModule } from "ngx-vant-revive/tab";
+import { CellGroupModule } from "ngx-vant-revive/cell-group";
 
 
 import { ButtonComponent } from './page/mobile/button/button.component';

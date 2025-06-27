@@ -7,7 +7,7 @@
 ### 引入
 
 ```js
-import PickerModule from 'ngx-vant/picker';
+import PickerModule from 'ngx-vant-revive/picker';
 ```
 
 ## 代码演示

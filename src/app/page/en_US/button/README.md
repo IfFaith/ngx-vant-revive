@@ -3,7 +3,7 @@
 ### Install
 
 ```js
-import { ButtonModule } from "ngx-vant/button";
+import { ButtonModule } from "ngx-vant-revive/button";
 ```
 
 ## Usage

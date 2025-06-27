@@ -2,7 +2,7 @@
     <img alt="logo" src="https://img.yzcdn.cn/vant/logo.png" width="120" height="120" style="margin-bottom: 10px;">
 </p>
 
-<h1 align="center">Ngx-Vant</h1>
+<h1 align="center">ngx-vant-revive</h1>
 
 <p align="center">Mobile UI Components built on Angular</p>
 
@@ -16,7 +16,7 @@
 </p> -->
 
 <p align="center">
-  🔥 <a href="https://ngx-vant.github.io/ngx-vant">文档网站</a>
+  🔥 <a href="https://ngx-vant-revive.github.io/ngx-vant-revive">文档网站</a>
   &nbsp;
   &nbsp;
   
@@ -40,7 +40,7 @@
 ## Install
 
 ```bash
-npm i ngx-vant -S
+npm i ngx-vant-revive -S
 ```
 
 ## Quickstart
@@ -49,8 +49,8 @@ npm i ngx-vant -S
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
-import { ButtonModule } from "ngx-vant/button";
-import { Vant18nModule, VANT_I18N } from "ngx-vant/i18n";
+import { ButtonModule } from "ngx-vant-revive/button";
+import { Vant18nModule, VANT_I18N } from "ngx-vant-revive/i18n";
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, AppRoutingModule, ButtonModule],
@@ -60,11 +60,11 @@ import { Vant18nModule, VANT_I18N } from "ngx-vant/i18n";
 export class AppModule {}
 ```
 
-See more in [Quickstart](https://ngx-vant.github.io/ngx-vant/#/basic/quickstart).
+See more in [Quickstart](https://ngx-vant-revive.github.io/ngx-vant-revive/#/basic/quickstart).
 
 ## Contribution
 
-Please make sure to read the [Contributing Guide](https://ngx-vant.github.io/ngx-vant/#/basic/contribution) before making a pull request.
+Please make sure to read the [Contributing Guide](https://ngx-vant-revive.github.io/ngx-vant-revive/#/basic/contribution) before making a pull request.
 
 ## Browser Support
 
@@ -72,7 +72,7 @@ Modern browsers and Android 4.0+, iOS 8.0+.
 
 ## Links
 
-- [Documentation](https://ngx-vant.github.io/ngx-vant)
+- [Documentation](https://ngx-vant-revive.github.io/ngx-vant-revive)
 
 ## LICENSE
 
@@ -80,4 +80,4 @@ Modern browsers and Android 4.0+, iOS 8.0+.
 
 <!-- 发布：
 1、npm run package  等一会儿，等所有等包生成完之后，再执行第二步
-2、cd /dist/ngx-vant  执行 npm publish -->
+2、cd /dist/ngx-vant-revive  执行 npm publish -->

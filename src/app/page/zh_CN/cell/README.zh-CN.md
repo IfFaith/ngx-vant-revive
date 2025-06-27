@@ -7,7 +7,7 @@
 ### 引入
 
 ```js
-import CellModule from 'ngx-vant/cell';
+import CellModule from 'ngx-vant-revive/cell';
 ```
 
 ## 代码演示

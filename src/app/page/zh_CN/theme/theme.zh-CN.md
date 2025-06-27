@@ -10,7 +10,7 @@ Ngx-Vant 提供了一套默认主题，CSS 命名采用 BEM 的风格，方便�
 
 Ngx-Vant 使用了 [Less](http://lesscss.org/) 对样式进行预处理，并内置了一些样式变量，通过替换样式变量即可定制你自己需要的主题。
 
-下面是所有的基础样式变量，组件的颜色变量请参考各个组件的文档或[配置文件](https://github.com/yutao331763646/ngx-vant/blob/main/library/ngx-vant/style/var.less)。
+下面是所有的基础样式变量，组件的颜色变量请参考各个组件的文档或[配置文件](https://github.com/yutao331763646/ngx-vant-revive/blob/main/library/ngx-vant-revive/style/var.less)。
 
 ```less
 // Color Palette
@@ -92,7 +92,7 @@ Ngx-Vant 使用了 [Less](http://lesscss.org/) 对样式进行预处理，并内
 
 ```less
 /* You can add global styles to this file, and also import other style files */
-@import  '../node_modules/ngx-vant/ngx-vant.less';
+@import  '../node_modules/ngx-vant-revive/ngx-vant-revive.less';
 ```
 
 ### 步骤二 修改样式变量
@@ -101,7 +101,7 @@ Ngx-Vant 使用了 [Less](http://lesscss.org/) 对样式进行预处理，并内
 
 ```less
 /* You can add global styles to this file, and also import other style files */
-@import  '../node_modules/ngx-vant/ngx-vant.less';
+@import  '../node_modules/ngx-vant-revive/ngx-vant-revive.less';
 
 @button-primary-background-color: red;
 @button-primary-border-color: red;

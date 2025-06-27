@@ -3,7 +3,7 @@
 ### Install
 
 ```js
-import NotifyModule from 'ngx-vant/notify';
+import NotifyModule from 'ngx-vant-revive/notify';
 ```
 
 ## Usage
