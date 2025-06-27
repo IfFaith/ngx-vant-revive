@@ -1,6 +1,0 @@
-{
-  "lib": {
-    "flatModuleFile": "vanSticky",
-    "entryFile": "public-api.ts"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "lib": {
-    "flatModuleFile": "vanzield",
-    "entryFile": "public-api.ts"
-  }
-}

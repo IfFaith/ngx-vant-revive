@@ -1,6 +1,0 @@
-{
-  "lib": {
-    "flatModuleFile": "vanImage",
-    "entryFile": "public-api.ts"
-  }
-}

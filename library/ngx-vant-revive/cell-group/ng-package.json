@@ -1,6 +1,0 @@
-{
-  "lib": {
-    "flatModuleFile": "vanCell",
-    "entryFile": "public-api.ts"
-  }
-}
