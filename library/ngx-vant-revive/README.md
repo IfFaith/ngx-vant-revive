@@ -59,11 +59,11 @@ import { ButtonModule } from "ngx-vant-revive";
 export class AppModule {}
 ```
 
-See more in [Quickstart](https://yutao331763646.github.io/yutao331763646/#/basic/quickstart).
+See more in [Quickstart](https://github.com/IfFaith/ngx-vant-revive).
 
 ## Contribution
 
-Please make sure to read the [Contributing Guide](https://yutao331763646.github.io/yutao331763646/#/basic/contribution) before making a pull request.
+Please make sure to read the [Contributing Guide](https://github.com/IfFaith/ngx-vant-revive) before making a pull request.
 
 ## Browser Support
 
@@ -71,7 +71,7 @@ Modern browsers and Android 4.0+, iOS 8.0+.
 
 ## Links
 
-- [Documentation](https://yutao331763646.github.io/yutao331763646)
+- [Documentation](https://github.com/IfFaith/ngx-vant-revive)
 
 ## LICENSE
 

@@ -19,7 +19,7 @@
 
 ```bash
 # 克隆仓库
-git clone git@github.com:yutao331763646/ngx-vant.git
+git clone git@github.com:IfFaith/ngx-vant-revive.git
 
 # 安装依赖
 cd ngx-vant && npm run bootstrap
@@ -57,7 +57,7 @@ npm run doc
 
 ```bash
 # 添加主仓库到 remote，作为 fork 后仓库的上游仓库
-git remote add upstream https://github.com/yutao331763646/ngx-vant.git
+git remote add upstream https://github.com/IfFaith/ngx-vant-revive.git
 
 
 # 拉取主仓库最新代码

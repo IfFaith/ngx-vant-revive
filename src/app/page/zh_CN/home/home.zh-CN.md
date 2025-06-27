@@ -30,7 +30,7 @@ Ngx-Vant-Revive 是**Zan Design System**视觉规范实现的**Angular UI** 组�
 
 修改代码请阅读我们的[开发指南](#/zh-CN/contribution)。
 
-使用过程中发现任何问题都可以提 [Issue](https://github.com/yutao331763646/ngx-vant-revive/issues) 给我们，当然，我们也非常欢迎你给我们发 [PR](https://github.com/yutao331763646/ngx-vant-revive/pulls)。
+使用过程中发现任何问题都可以提 [Issue](https://github.com/IfFaith/ngx-vant-revive/issues) 给我们，当然，我们也非常欢迎你给我们发 [PR](https://github.com/IfFaith/ngx-vant-revive/pulls)。
 
 ### 浏览器支持
 
@@ -49,7 +49,7 @@ Ngx-Vant-Revive 是**Zan Design System**视觉规范实现的**Angular UI** 组�
 
 ### 链接
 
-- [意见反馈](https://github.com/yutao331763646/ngx-vant-revive/issues)
+- [意见反馈](https://github.com/IfFaith/ngx-vant-revive/issues)
 
 ### 开源协议
 
