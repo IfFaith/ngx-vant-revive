@@ -1,5 +1,5 @@
 export const navConfig = {
-    title: 'Ngx-Vant',
+    title: 'Ngx-Vant-Revive',
     description: '轻量、可靠的移动端 Angular 组件库',
     logo: 'https://img.yzcdn.cn/vant/logo.png',
     langLabel: '中文',
@@ -338,7 +338,7 @@ export const navConfig = {
 }
 
 export const navEnConfig = {
-    title: 'Ngx-Vant',
+    title: 'Ngx-Vant-Revive',
     description: 'Mobile UI Components built on Angular',
     logo: 'https://img.yzcdn.cn/vant/logo.png',
     langLabel: 'En',

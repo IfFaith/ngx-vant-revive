@@ -29,7 +29,7 @@ export class AppModule {}
 
 ### 运行时修改
 
- `Ngx-Vant` 提供了`VantI18nService`服务用于动态修改国际化：
+ `Ngx-Vant-Revive` 提供了`VantI18nService`服务用于动态修改国际化：
 
 ```js
 import { Component } from '@angular/core';

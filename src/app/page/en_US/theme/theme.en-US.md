@@ -2,7 +2,7 @@
 
 ### Intro
 
-Ngx-Vant use [Less](http://lesscss.org/) as css preprocessor，you can override the default less variables to custom theme.
+Ngx-Vant-Revive use [Less](http://lesscss.org/) as css preprocessor，you can override the default less variables to custom theme.
 
 ### Less variables
 

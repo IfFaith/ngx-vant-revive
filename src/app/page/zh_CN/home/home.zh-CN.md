@@ -1,14 +1,14 @@
 <div class="card">
   <div class="van-doc-intro">
     <img class="van-doc-intro__logo" style="width: 120px; height: 120px;" src="https://img.yzcdn.cn/vant/logo.png">
-    <h2 style="margin: 0; font-size: 36px; line-height: 60px;">Ngx-Vant</h2>
+    <h2 style="margin: 0; font-size: 36px; line-height: 60px;">Ngx-Vant-Revive</h2>
     <p>轻量、可靠的移动端 Angular 组件库</p>
   </div>
 </div>
 
 ### 介绍
 
-Ngx-Vant 是**Zan Design System**视觉规范实现的**Angular UI** 组件库，全部代码开源并遵循 MIT 协议，任何企业、组织及个人均可免费使用。 <br><br>
+Ngx-Vant-Revive 是**Zan Design System**视觉规范实现的**Angular UI** 组件库，全部代码开源并遵循 MIT 协议，任何企业、组织及个人均可免费使用。 <br><br>
 
 目前 Vant 官方提供了 [Vue 2 版本](https://vant-contrib.gitee.io/vant)、[Vue 3 版本](https://vant-contrib.gitee.io/vant/next)和[微信小程序版本](http://vant-contrib.gitee.io/vant-weapp)，并由社区团队维护 [React 版本](https://github.com/mxdi9i7/vant-react)。
 

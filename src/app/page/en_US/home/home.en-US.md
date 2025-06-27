@@ -1,7 +1,7 @@
 <div class="card">
   <div class="van-doc-intro">
     <img class="van-doc-intro__logo" style="width: 120px; height: 120px;" src="https://img.yzcdn.cn/vant/logo.png">
-    <h2 style="margin: 0; font-size: 36px; line-height: 60px;">Ngx-Vant</h2>
+    <h2 style="margin: 0; font-size: 36px; line-height: 60px;">Ngx-Vant-Revive</h2>
     <p>Mobile UI Components built on Angular</p>
   </div>
 </div>
