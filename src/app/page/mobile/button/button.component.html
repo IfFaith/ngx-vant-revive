@@ -1,0 +1,201 @@
+<vant-mobile-nav title='Button'></vant-mobile-nav>
+<vant-mobile-demo
+    [title]="'button.type' | vantI18n "
+    class="demo-button"
+>
+    <!-- Pipe -->
+    <!-- <p>{{ 'comment.comments' | vantI18n }}</p> -->
+    <!-- Directive -->
+    <!-- <p vant-i18n="comment.comments"></p> -->
+    <div class="demo-button-row">
+        <van-button type="primary">{{ 'button.primary' | vantI18n }}</van-button>
+        <van-button type="info">{{ 'button.info' | vantI18n }}</van-button>
+        <van-button type="default">{{ 'button.default' | vantI18n }}</van-button>
+    </div>
+    <van-button type="danger">{{ 'button.danger' | vantI18n }}</van-button>
+    <van-button type="warning">{{ 'button.warning' | vantI18n }}</van-button>
+</vant-mobile-demo>
+
+<vant-mobile-demo
+    [title]="'button.plain' | vantI18n "
+    class="demo-button"
+>
+    <van-button
+        [plain]="true"
+        type="primary"
+    >
+        {{'button.plain' | vantI18n }}
+    </van-button>
+    <van-button
+        [plain]="true"
+        type="info"
+    >
+        {{'button.plain' | vantI18n }}
+    </van-button>
+</vant-mobile-demo>
+
+<vant-mobile-demo
+    [title]="'button.hairline' | vantI18n "
+    class="demo-button"
+>
+    <van-button
+        [plain]="true"
+        [hairline]="true"
+        type="primary"
+    >
+        {{'button.hairlineBtn' | vantI18n }}
+    </van-button>
+    <van-button
+        [hairline]="true"
+        type="info"
+    >
+        {{'button.hairlineBtn' | vantI18n }}
+    </van-button>
+</vant-mobile-demo>
+
+<vant-mobile-demo
+    [title]="'button.disabled' | vantI18n "
+    class="demo-button"
+>
+    <van-button
+        [disabled]="true"
+        type="primary"
+    >
+        {{'button.disabled' | vantI18n }}
+    </van-button>
+    <van-button
+        [disabled]="true"
+        type="info"
+    >
+        {{'button.disabled' | vantI18n }}
+    </van-button>
+</vant-mobile-demo>
+
+<vant-mobile-demo
+    [title]="'button.loading' | vantI18n "
+    class="demo-button"
+>
+    <van-button
+        [loading]="true"
+        type="primary"
+    >
+
+    </van-button>
+    <van-button
+        [loading]="true"
+        loadingSize='20px'
+        loadingType='spinner'
+        type="primary"
+    >
+
+    </van-button>
+    <van-button
+        [loading]="true"
+        type="info"
+        [loadingText]="'button.load' | vantI18n "
+    >
+
+    </van-button>
+</vant-mobile-demo>
+
+<vant-mobile-demo
+    [title]="'button.shape' | vantI18n "
+    class="demo-button"
+>
+    <van-button
+        [square]="true"
+        type="primary"
+    >
+        {{'button.square' | vantI18n }}
+    </van-button>
+    <van-button
+        [round]="true"
+        type="info"
+    >
+        {{'button.round' | vantI18n }}
+    </van-button>
+</vant-mobile-demo>
+
+<vant-mobile-demo
+    [title]="'button.icon' | vantI18n "
+    class="demo-button"
+>
+    <van-button
+        icon="plus"
+        type="primary"
+    >
+    </van-button>
+    <van-button
+        icon="plus"
+        type="info"
+    >
+        {{'button.btn' | vantI18n }}
+    </van-button>
+    <van-button
+        [plain]="true"
+        icon="https://img.yzcdn.cn/vant/user-active.png"
+        type="info"
+        iconPrefix='right'
+    >
+        {{'button.btn' | vantI18n }}
+    </van-button>
+</vant-mobile-demo>
+
+<vant-mobile-demo
+    [title]="'button.size' | vantI18n "
+    class="demo-button"
+>
+    <div class="demo-button-row">
+
+        <van-button
+            type="primary"
+            size="large"
+        >
+            {{'button.large' | vantI18n }}
+        </van-button>
+    </div>
+    <van-button
+        type="primary"
+        size="normal"
+    >
+        {{'button.normal' | vantI18n }}
+    </van-button>
+    <van-button
+        type="primary"
+        size="small"
+    >
+        {{'button.small' | vantI18n }}
+    </van-button>
+    <van-button
+        type="primary"
+        size="mini"
+    >
+        {{'button.mini' | vantI18n }}
+    </van-button>
+</vant-mobile-demo>
+
+<vant-mobile-demo
+    [title]="'button.blockEl' | vantI18n "
+    class="demo-button"
+>
+    <van-button
+        type="primary"
+        [block]="true"
+    >
+        {{'button.blockEl' | vantI18n }}
+    </van-button>
+</vant-mobile-demo>
+
+<vant-mobile-demo
+    [title]="'button.cusColor' | vantI18n "
+    class="demo-button"
+>
+    <van-button color="#7232dd">{{'button.pure' | vantI18n }}</van-button>
+    <van-button
+        [plain]="true"
+        color="#0032dd"
+    >
+        {{'button.pure' | vantI18n }}
+    </van-button>
+    <van-button color="linear-gradient(to right, #ff6034, #ee0a24)">{{'button.gradient' | vantI18n }}</van-button>
+</vant-mobile-demo>

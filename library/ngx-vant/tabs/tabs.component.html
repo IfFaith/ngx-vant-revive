@@ -1,0 +1,42 @@
+<div class="van-tabs van-tabs--line">
+    <div
+        class="van-tabs__wrap"
+        [class.van-tabs__wrap--scrollable]="scrollable"
+    >
+        <div #navRef
+            role="tablist"
+            class="van-tabs__nav"
+            [class.van-tabs__nav--line]="type==='line'"
+            [class.van-tabs__nav--card]="type==='card'"
+            [class.van-tabs__nav--complete]="scrollable"
+            [style.color]="color"
+            [style.background]="background"
+        >
+            <div
+                #titleRef
+                van-tab-title
+                *ngFor="let child of allTabs;let i=index"
+                [title]="child.title"
+                [disabled]="child.disabled"
+                (click)="currentChange($event,i,true)"
+            ></div>
+            <div
+                *ngIf="type==='line'"
+                class="van-tabs__line"
+                [style.width]="lineWidth"
+                [style.height]="lineHeight"
+                [style.transform]=" 'translateX('+ lineLeft+'px) translateX(-50%)' "
+                [style.transitionDuration]="duration+'s'"
+            ></div>
+        </div>
+    </div>
+    <div class="van-tabs__content">
+        <div
+            tab-body
+            *ngFor="let child of allTabs;let i=index"
+            [content]="child.content"
+            [active]="currentIndex===i"
+        ></div>
+
+    </div>
+</div>

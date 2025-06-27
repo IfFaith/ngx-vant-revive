@@ -1,0 +1,43 @@
+<van-overlay
+    *ngIf="overlay"
+    [show]="isOpen"
+    [closeOnClickOverlay]="closeOnClickOverlay"
+    (maskClose)="maskClose()"
+>
+
+</van-overlay>
+<div
+    *ngIf="position==='center'"
+    [class]="'van-popup '+nativeClass"
+    [@overlayAnimation]="isOpen"
+    [ngStyle]="customStyle"
+    [style.zIndex]="2022"
+    [class.van-popup--center]="position==='center'"
+    [class.van-popup--round]="round"
+    [class.van-popup--safe-area-inset-bottom]="safeAreaInsetBottom"
+>
+    <ng-content></ng-content>
+</div>
+<div
+    *ngIf="position!=='center'"
+    [class]="'van-popup '+nativeClass"
+    [ngStyle]="customStyle"
+    [style.zIndex]="2022"
+    [class.van-popup--top]="position==='top'"
+    [class.van-popup--bottom]="position==='bottom'"
+    [class.van-popup--right]="position==='right'"
+    [class.van-popup--left]="position==='left'"
+    [style.transform]="transform"
+    [class.van-popup--round]="round"
+    [class.van-popup--safe-area-inset-bottom]="safeAreaInsetBottom"
+>
+    <van-icon
+        *ngIf="closeable"
+        role="button"
+        tabindex="0"
+        [name]="closeIcon"
+        [nativeClassName]="'van-popup__close-icon '+iconPositionNativeClass"
+    ></van-icon>
+
+    <ng-content></ng-content>
+</div>

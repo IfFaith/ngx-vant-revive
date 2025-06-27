@@ -1,0 +1,30 @@
+<div class="van-doc-header">
+    <div class="van-doc-row">
+        <div class="van-doc-header__top">
+            <a class="van-doc-header__logo">
+                <img src="https://img01.yzcdn.cn/vant/logo.png">
+                <span>Ngx-Vant</span>
+            </a>
+            <ul class="van-doc-header__top-nav">
+                <li class="van-doc-header__top-nav-item">
+                    <a
+                        class="van-doc-header__logo-link"
+                        target="_blank"
+                        [href]="'https://github.com/yutao331763646/ngx-vant'"
+                    >
+                        <img
+                            class="logogithub"
+                            src="https://b.yzcdn.cn/vant/logo/github.svg"
+                        >
+                    </a>
+                </li>
+                <li
+                    class="van-doc-header__top-nav-item"
+                    (click)="onSwitchLang()"
+                >
+                    <a class="van-doc-header__cube">{{lang}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
