@@ -1,0 +1,99 @@
+// @import '../../style/themes/default';
+
+@toastPrefixCls: am-toast;
+
+.@{toastPrefixCls} {
+  display: block;
+  .@{toastPrefixCls}-notice{
+    max-width: @toast-max-width;
+  }
+  &&-forbidClick {
+    &&&-top {
+      align-items: flex-start;
+      padding-top: @padding-base;
+    }
+    &&&-middle {
+      align-items: center;
+    }
+    &&&-bottom {
+      align-items: flex-end;
+      padding-bottom: @padding-base;
+    }
+  }
+
+  &&-noforbidClick {
+    &&&-top {
+      top: 0%;
+      .@{toastPrefixCls}-notice {
+        transform: translateX(-50%) translateY(calc(0% + @padding-base));
+      }
+    }
+    &&&-middle {
+      top: 50%;
+      .@{toastPrefixCls}-notice {
+        transform: translateX(-50%) translateY(-50%);
+      }
+    }
+    &&&-bottom {
+      top: 100%;
+      .@{toastPrefixCls}-notice {
+        transform: translateX(-50%) translateY(calc(-100% - @padding-base));
+      }
+    }
+  }
+}
+// @import '../../style/mixins';
+// @import '../../style/themes/default';
+
+
+.@{toastPrefixCls} {
+  position: fixed;
+  width: 100%;
+  z-index: @toast-zindex;
+  font-size: @toast-font-size;
+  text-align: center;
+
+  &&-forbidClick {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    transform: translateZ(1px);
+  }
+
+  &&-noforbidClick {
+    position: fixed;
+    max-width: 50%;
+    width: auto;
+    left: 50%;
+    top: 50%;
+    transform: translateZ(1px);
+    .@{toastPrefixCls}-notice {
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+
+  &-notice-content {
+    .@{toastPrefixCls}-text {
+      min-width: @toast-text-min-width;
+      border-radius: @toast-radius-sm;
+      color: @toast-text-color;
+      background-color: @toast-fill;
+      line-height: @toast-line-height;
+      padding: @padding-base @toast-h-spacing-lg;
+      .@{toastPrefixCls}-text-info {
+         overflow-wrap: break-word;
+         word-break: break-all;
+      }
+      &.@{toastPrefixCls}-text-icon {
+        border-radius: @toast-border-radius;
+        padding: @toast-v-spacing-lg @toast-h-spacing-lg;
+        .@{toastPrefixCls}-text-info {
+          margin-top: @toast-v-spacing-sm;
+        }
+      }
+    }
+  }
+}

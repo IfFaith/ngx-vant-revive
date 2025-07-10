@@ -17,7 +17,7 @@ import { NotifyComponent } from "./notify/notify.component";
 import { QuickstartComponent } from "./quickstart/quickstart.component";
 // import { TabsComponent } from "./tabs/tabs.component";
 // import { TagComponent } from "./tag/tag.component";
-// import { ToastComponent } from "./toast/toast.component";
+import { ToastComponent } from "./toast/toast.component";
 import { PickerComponent } from "./picker/picker.component";
 import { ThemeComponent } from "./theme/theme.component";
 // import { ContributionComponent } from "./contribution/contribution.component";
@@ -79,10 +79,11 @@ const routes: Routes = [
         path: 'layout',
         component: LayoutComponent
     },
+    {
+        path: 'toast',
+        component: ToastComponent
+    }, 
     // {
-    //     path: 'toast',
-    //     component: ToastComponent
-    // }, {
     //     path: 'progress',
     //     component: ProgressComponent
     // }, 

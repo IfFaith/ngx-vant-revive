@@ -1,3 +1,39 @@
-<p>
-  toast works!
-</p>
+<div
+  class="{{ prefixCls }}-notice {{ prefixCls }}-notice-closable {{
+    transitionName
+  }}"
+>
+  <div class="{{ prefixCls }}-notice-content">
+    <div
+      role="alert"
+      *ngIf="iconType || type"
+      class="{{ prefixCls }}-text {{ prefixCls }}-text-icon"
+      aria-live="assertive"
+    >
+      <van-icon
+        *ngIf="type !== 'loading'"
+        [name]="type || iconType"
+        [size]="iconSize"
+      ></van-icon>
+      <van-loading *ngIf="type === 'loading'"></van-loading>
+      <div *ngIf="isContentString" class="{{ prefixCls }}-text-info">
+        {{ content }}
+      </div>
+    </div>
+    <div
+      *ngIf="!iconType && !type"
+      class="{{ prefixCls }}-text"
+      role="alert"
+      aria-live="assertive"
+    >
+      <div *ngIf="isContentString" class="{{ prefixCls }}-text-info">
+        {{ content }}
+      </div>
+
+      <ng-template
+        *ngIf="!isContentString"
+        [ngTemplateOutlet]="$any(content)"
+      ></ng-template>
+    </div>
+  </div>
+</div>

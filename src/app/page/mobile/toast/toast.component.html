@@ -1,3 +1,68 @@
-<p>
-  toast works!
-</p>
+<vant-mobile-nav title='Toast'></vant-mobile-nav>
+<van-van-doc-demo-card title="文字提示">
+  <p>
+    <van-button [plain]="true" type="primary" (click)="create()">
+      文字提示
+    </van-button>
+  </p>
+</van-van-doc-demo-card>
+
+<van-van-doc-demo-card title="加载提示">
+  <p>
+    <van-button [plain]="true" type="primary" (click)="loading()">
+      加载提示
+    </van-button>
+  </p>
+</van-van-doc-demo-card>
+
+<van-van-doc-demo-card title="成功/失败提示">
+  <p>
+    <van-button [plain]="true" type="primary" (click)="success()">
+      成功提示
+    </van-button>
+    &nbsp;&nbsp;&nbsp;
+    <van-button [plain]="true" type="primary" (click)="fail()">
+      失败提示
+    </van-button>
+  </p>
+</van-van-doc-demo-card>
+
+<van-van-doc-demo-card title="自定义图标">
+  <p>
+    <van-button [plain]="true" type="primary" (click)="createIcon()">
+      自定义图标
+    </van-button>
+  </p>
+</van-van-doc-demo-card>
+
+<van-van-doc-demo-card title="自定义位置">
+  <p>
+    <van-button [plain]="true" type="primary" (click)="createPosition('top')">
+      顶部提示
+    </van-button>
+    &nbsp;&nbsp;&nbsp;
+    <van-button
+      [plain]="true"
+      type="primary"
+      (click)="createPosition('middle')"
+    >
+      居中提示
+    </van-button>
+    &nbsp;&nbsp;&nbsp;
+    <van-button
+      [plain]="true"
+      type="primary"
+      (click)="createPosition('bottom')"
+    >
+      底部提示
+    </van-button>
+  </p>
+</van-van-doc-demo-card>
+
+<van-van-doc-demo-card title="动态更新提示">
+  <p>
+    <van-button [plain]="true" type="primary" (click)="dynamic()">
+      自定义图标
+    </van-button>
+  </p>
+</van-van-doc-demo-card>

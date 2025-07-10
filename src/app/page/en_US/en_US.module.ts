@@ -15,19 +15,25 @@ import { LayoutComponent } from './layout/layout.component';
 import { LoadingComponent } from './loading/loading.component';
 import { NotifyComponent } from './notify/notify.component';
 import { PickerComponent } from './picker/picker.component';
+import { ToastComponent } from './toast/toast.component';
 
 @NgModule({
-    imports: [
-        CommonModule, EnRoutingModule,
-        DocSharedModule
-    ],
-    declarations: [
-        QuickstartComponent, ButtonComponent, HomeComponent,
-        ThemeComponent, LocaleComponent,
-        CellComponent, FieldComponent, IconComponent,
-        ImageComponent,
-        LayoutComponent,
-        LoadingComponent, NotifyComponent,PickerComponent
-    ]
+  imports: [CommonModule, EnRoutingModule, DocSharedModule],
+  declarations: [
+    QuickstartComponent,
+    ButtonComponent,
+    HomeComponent,
+    ThemeComponent,
+    LocaleComponent,
+    CellComponent,
+    FieldComponent,
+    IconComponent,
+    ImageComponent,
+    LayoutComponent,
+    LoadingComponent,
+    NotifyComponent,
+    PickerComponent,
+    ToastComponent,
+  ],
 })
-export class En_USModule { }
+export class En_USModule {}
